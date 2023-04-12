@@ -6,8 +6,6 @@
   <div>
     <h2>How to adjust ReactQuery in my project?</h2>
     <div>
-      <pre>
-          <code>
             1) Make a React Project with CRA or Vite    
                 CRA : npx create-react-app my-app
                 Vite : npm create vite@latest
@@ -18,6 +16,7 @@
             2-1) Use CDN in HTML files 
                  : <script src="https://unpkg.com/@tanstack/react-query@4/build/umd/index.production.js"></script>
             3) Start React Query in your React project
+                 ```
                  ex) <App.js> 
                   import React from 'react'
                   import ReactDOM from 'react-dom/client'
@@ -34,11 +33,11 @@
                       <ReactQueryDevtools initialIsOpen={false} />
                     </QueryClientProvider>
                   )
-          </code>          
-      </pre>
+                  ```
     </div>
-  </div>
+  </div>  
 </div>
+  
 <div>
   <h2>How to use React-Query?</h2>
   <div>
